@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 
 class EnumConverterCommand extends Command
 {
-    public $signature = 'convert-enums {--js} {--force : Force processing of enums}';
+    public $signature = 'convert-enums {--js : convert to JS Enum } {--force : Force processing of enums}';
 
     public $description = 'Convert PHP enums to JS/TS enums';
 

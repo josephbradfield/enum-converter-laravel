@@ -45,7 +45,15 @@ return [
     'enable_file_hash_check' => true,
 ];
 ```
+## Usage 
 
+`php artisan  convert-enums`
+
+### Options
+
+    --js output in .js format
+    --force Force processing of enums
+    
 ## Testing
 
 ```bash
